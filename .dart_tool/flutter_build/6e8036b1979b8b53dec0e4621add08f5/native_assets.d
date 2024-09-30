@@ -1,0 +1,1 @@
+ C:\\Users\\pc\\Downloads\\Project\\UAVA\\.dart_tool\\flutter_build\\6e8036b1979b8b53dec0e4621add08f5\\native_assets.yaml: 

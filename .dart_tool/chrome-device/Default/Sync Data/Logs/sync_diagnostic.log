@@ -1,0 +1,40 @@
+2024-08-28T03:52:55.475Z P:4316 T:6284] SyncServiceImpl::Initialize,SyncState after authenticated was: NotSignedIn
+2024-08-28T03:53:04.730Z P:4316 T:6284] SyncAuthManager::SetLastAuthError,Current auth error: None
+2024-08-28T03:53:04.730Z P:4316 T:6284] SyncAuthManager::SetLastAuthError,Current auth error: None
+2024-08-28T03:53:04.770Z P:4316 T:6284] SyncServiceImpl::TryStartImpl,Try to start sync engine
+2024-08-28T03:53:04.786Z P:4316 T:5988] SyncManagerImpl::ConfigureSyncer,Types to download: Encryption Keys
+2024-08-28T03:53:06.425Z P:4316 T:6284] SyncAuthManager::SetLastAuthError,Current auth error: None
+2024-08-28T03:53:06.425Z P:4316 T:6284] SyncAuthManager::EdgeLogTokenErrorState,Token error with: None for account type: MSA
+2024-08-28T03:53:06.425Z P:4316 T:6284] SyncServiceImpl::CredentialsChangedForKeyData,Credentials changed for: EdgeSyncKeyDataScope
+2024-08-28T03:53:06.585Z P:4316 T:6284] SyncAuthManager::SetLastAuthError,Current auth error: None
+2024-08-28T03:53:06.585Z P:4316 T:6284] SyncAuthManager::EdgeLogTokenErrorState,Token error with: None for account type: MSA
+2024-08-28T03:53:06.585Z P:4316 T:6284] SyncServiceImpl::CredentialsChanged,Credentials changed for: EdgeSyncScopeNew
+2024-08-28T03:53:07.433Z P:4316 T:6284] SyncServiceImpl::OnEngineInitialized,Initialize engine with: Success
+2024-08-28T03:53:07.439Z P:4316 T:6284] ModelLoadManager::Configure,Desired types without errors: Device Info, User Consents, Send Tab To Self, Encryption Keys and types with errors: 
+2024-08-28T03:53:07.442Z P:4316 T:6284] ModelLoadManager::LoadDesiredTypes,Loading type: Device Info
+2024-08-28T03:53:07.445Z P:4316 T:6284] ModelLoadManager::LoadDesiredTypes,Loading type: User Consents
+2024-08-28T03:53:07.445Z P:4316 T:6284] ModelLoadManager::LoadDesiredTypes,Loading type: Send Tab To Self
+2024-08-28T03:53:07.447Z P:4316 T:6284] ModelLoadManager::ModelLoadCallback,Load Device Info: success
+2024-08-28T03:53:07.447Z P:4316 T:6284] ModelLoadManager::ModelLoadCallback,Load User Consents: success
+2024-08-28T03:53:07.447Z P:4316 T:6284] ModelLoadManager::ModelLoadCallback,Load Send Tab To Self: success
+2024-08-28T03:53:07.447Z P:4316 T:6284] DataTypeManagerImpl::OnAllDataTypesReadyForConfigure,Start to configure data types
+2024-08-28T03:53:07.447Z P:4316 T:6284] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 3 and next configuring types are: Encryption Keys
+2024-08-28T03:53:07.447Z P:4316 T:6284] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types: 
+2024-08-28T03:53:08.773Z P:4316 T:5988] SyncManagerImpl::ConfigureSyncer,Types to download: 
+2024-08-28T03:53:08.901Z P:4316 T:6284] DataTypeManagerImpl::ConfigurationCompleted,Need reconfigure with failed types: 
+2024-08-28T03:53:08.901Z P:4316 T:6284] ModelLoadManager::Configure,Desired types without errors: Device Info, User Consents, Send Tab To Self, Encryption Keys and types with errors: 
+2024-08-28T03:53:08.901Z P:4316 T:6284] DataTypeManagerImpl::OnAllDataTypesReadyForConfigure,Start to configure data types
+2024-08-28T03:53:08.901Z P:4316 T:6284] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 3 and next configuring types are: Encryption Keys
+2024-08-28T03:53:08.901Z P:4316 T:6284] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types: 
+2024-08-28T03:53:08.902Z P:4316 T:7876] SyncManagerImpl::ConfigureSyncer,Types to download: 
+2024-08-28T03:53:08.902Z P:4316 T:6284] DataTypeManagerImpl::ConfigurationCompleted,Remain to be configured size: 2
+2024-08-28T03:53:08.914Z P:4316 T:6284] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 2 and next configuring types are: Device Info, Send Tab To Self
+2024-08-28T03:53:08.914Z P:4316 T:6284] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types: Device Info, Send Tab To Self, Encryption Keys
+2024-08-28T03:53:08.914Z P:4316 T:5988] SyncManagerImpl::ConfigureSyncer,Types to download: Device Info, Send Tab To Self, Encryption Keys
+2024-08-28T03:53:09.235Z P:4316 T:6284] DataTypeManagerImpl::ConfigurationCompleted,Remain to be configured size: 1
+2024-08-28T03:53:09.236Z P:4316 T:6284] DataTypeManagerImpl::StartNextConfiguration,Remain to be configured size: 1 and next configuring types are: User Consents
+2024-08-28T03:53:09.236Z P:4316 T:6284] DataTypeManagerImpl::PrepareConfigureParams,Prepare to be configured types: 
+2024-08-28T03:53:09.236Z P:4316 T:5988] SyncManagerImpl::ConfigureSyncer,Types to download: 
+2024-08-28T03:53:09.236Z P:4316 T:6284] DataTypeManagerImpl::ConfigurationCompleted,Remain to be configured size: 0
+2024-08-28T03:53:09.237Z P:4316 T:6284] SyncServiceImpl::OnConfigureDone,Configure DataTypeManager with: Ok
+2024-08-28T03:53:10.103Z P:4316 T:5988] Commit::PostAndProcessResponse,Process Device Info: Success
